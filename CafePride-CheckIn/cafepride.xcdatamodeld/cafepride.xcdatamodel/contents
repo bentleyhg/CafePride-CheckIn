@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1811" systemVersion="12C3006" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Event" representedClassName="Event" syncable="YES">
+        <attribute name="attendees" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="isActive" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="notes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numAttendees" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Individual" representedClassName="Individual">
+        <attribute name="attendance_eligibility" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="attendance_status" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date_of_birth" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="individual_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="isPresent" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="name_first" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name_last" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name_preferred" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="profile_image" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="user_notes" optional="YES" attributeType="String" syncable="YES"/>
+        <userInfo/>
+    </entity>
+    <elements>
+        <element name="Event" positionX="27" positionY="81" width="128" height="120"/>
+        <element name="Individual" positionX="261" positionY="189" width="128" height="195"/>
+    </elements>
+</model>
